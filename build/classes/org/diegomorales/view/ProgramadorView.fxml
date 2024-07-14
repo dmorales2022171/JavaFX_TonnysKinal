@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="533.0" style="-fx-background-color: #F2F2F2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.ProgramadorController">
+   <children>
+      <Pane prefHeight="52.0" prefWidth="533.0" style="-fx-background-color: #F28E13;">
+         <children>
+            <Label layoutX="204.0" layoutY="11.0" style="-fx-text-fill: Time New Roman;" text="Programador" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Polygon fill="#3d79f2" layoutX="50.0" layoutY="533.0" points="-50.0, 47.0, 154.0, 47.0, -50.0, -88.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#3d79f2" layoutX="48.0" layoutY="112.0" points="-50.0, 40.0, 142.0, -60.0, -50.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#3d79f2" layoutX="483.0" layoutY="112.0" points="-155.0, -60.0, 50.0, 40.0, 50.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#3d79f2" layoutX="485.0" layoutY="540.0" points="-145.0, 40.0, 50.0, 40.0, 50.0, -103.0" stroke="BLACK" strokeType="INSIDE" />
+      <Pane layoutX="36.0" layoutY="144.0" prefHeight="313.0" prefWidth="248.0" style="-fx-background-color: #485922;">
+         <children>
+            <ImageView fitHeight="284.0" fitWidth="224.0" layoutX="18.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Programador.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="299.0" layoutY="244.0" prefHeight="30.0" prefWidth="264.0" style="-fx-text-fill: Time Neew Roman;" text="Nombre: Diego Alexander Morales Dieguez .">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></Label>
+      <Label layoutX="298.0" layoutY="292.0" style="-fx-text-fill: Time New Roman;" text="Carné: 2022171." />
+      <Label layoutX="298.0" layoutY="337.0" text="Código Técnico: IN5BV." />
+      <Button layoutX="259.0" layoutY="487.0" mnemonicParsing="false" onAction="#menuPrincipal" style="-fx-background-color: #F28E13;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="69.0" onMouseClicked="#menuPrincipal" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Return.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

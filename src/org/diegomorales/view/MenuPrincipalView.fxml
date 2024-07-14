@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="484.0" stylesheets="@../resource/TonysKinal.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.MenuPrincipalController">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="484.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Tonnys.png" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-8.0" layoutY="-8.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Módulos">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ventanaEmpresa" text="Empresas" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaProducto" text="Productos" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaTipoEmpleado" text="TipoEmpleado" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaPresupuesto" text="Presupuesto" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaTipoPlato" text="TipoPlato" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaEmpleado" text="Empleado" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaPlato" text="Plato" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaServicio" text="Servicio" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Reportes">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ventanaventanaProductoHasPlatos" text="Productos has Platos" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaServiciosHasPlatos" text="Servicios has Platos" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaServiciosHasEmpleados" text="Servicios has Empleados" />
+                  <MenuItem mnemonicParsing="false" onAction="#ventanaReporteGeneral" text="Reporte general" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ventanaProgramador" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

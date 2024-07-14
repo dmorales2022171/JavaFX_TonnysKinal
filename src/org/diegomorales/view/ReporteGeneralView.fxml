@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="743.0" style="-fx-background-color: #F2F2F2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.ReporteGeneralController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="308.0" layoutX="659.0" layoutY="12.0" rotate="142.0" stroke="#3d79f2" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="594.0" layoutX="621.0" layoutY="39.0" rotate="200.0" stroke="#3d79f2" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="282.0" layoutX="201.0" layoutY="184.0" rotate="17.0" stroke="#3d79f2" strokeType="INSIDE" width="28.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="285.0" layoutX="341.0" layoutY="-18.0" rotate="231.0" stroke="#3d79f2" strokeType="INSIDE" width="31.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="258.0" layoutX="179.0" layoutY="-21.0" rotate="322.0" stroke="#3d79f2" strokeType="INSIDE" width="22.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="224.0" layoutX="237.0" layoutY="422.0" rotate="134.0" stroke="#3d79f2" strokeType="INSIDE" width="27.0" />
+      <AnchorPane layoutY="64.0" prefHeight="544.0" prefWidth="176.0" style="-fx-background-color: #F28E13;">
+         <children>
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="147.0" prefWidth="145.0" style="-fx-background-color: #485922; -fx-background-radius: 50 50 50 50;">
+               <children>
+                  <ImageView fitHeight="93.0" fitWidth="109.0" layoutX="26.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/ReporteGeneral.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <VBox layoutX="2.0" layoutY="495.0" prefHeight="49.0" prefWidth="49.0" />
+            <ImageView fitHeight="38.0" fitWidth="42.0" layoutX="66.0" layoutY="484.0" onMouseClicked="#menuPrincipal" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Return.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Pane prefHeight="64.0" prefWidth="743.0" style="-fx-background-color: #3D79F2;">
+         <children>
+            <Label layoutX="243.0" layoutY="12.0" text="Reporte General" textFill="#f2f2f2">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <GridPane layoutX="285.0" layoutY="255.0" prefHeight="93.0" prefWidth="302.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="169.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="169.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ComboBox fx:id="cmbCodigoEmpresa" onAction="#imprimirReporte" prefHeight="25.0" prefWidth="183.0" GridPane.columnIndex="1" />
+            <Label prefHeight="17.0" prefWidth="155.0" text="Codigo Empresa">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="258.0" layoutX="402.0" layoutY="440.0" rotate="90.0" stroke="#3d79f2" strokeType="INSIDE" width="23.0" />
+   </children>
+</AnchorPane>

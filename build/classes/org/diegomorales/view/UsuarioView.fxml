@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.UsuarioController">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="667.0" prefWidth="636.0">
+         <children>
+            <Pane layoutX="74.0" layoutY="250.0" prefHeight="200.0" prefWidth="172.0" style="-fx-background-color: #F28E13; -fx-background-radius: 25 25 25 25;" />
+            <Pane layoutX="-6.0" prefHeight="52.0" prefWidth="644.0" style="-fx-background-color: #F28E13;">
+               <children>
+                  <Label layoutX="274.0" layoutY="4.0" text="Usuario" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Times New Roman" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="92.0" points="-50.0, -40.0, 24.0, -40.0, -24.0, -5.0, -50.0, 106.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="82.0" layoutY="129.0" points="-50.0, -40.0, 1.0, -77.0, -20.0, 16.0, -82.0, 79.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="248.0" points="-50.0, -30.0, 10.0, -91.0, -18.0, -10.0, -50.0, 50.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="56.0" layoutY="338.0" points="-21.0, -95.0, -7.0, 183.0, -56.0, 75.0, -56.0, -33.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="56.0" layoutY="528.0" points="-7.0, 6.0, -22.0, 67.0, -56.0, -5.0, -56.0, -97.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="630.0" points="-23.0, -32.0, 40.0, 37.0, -50.0, 37.0, -50.0, -96.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="124.0" layoutY="607.0" points="99.0, 66.0, 48.0, 66.0, -20.0, 66.0, -87.0, -10.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="240.0" layoutY="607.0" points="138.0, 60.0, 86.0, 67.0, 0.0, 67.0, -100.0, 25.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="385.0" layoutY="607.0" points="144.0, 21.0, 82.0, 60.0, 0.0, 60.0, -100.0, 40.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="581.0" layoutY="598.0" points="-11.0, 14.0, 57.0, -85.0, 57.0, 68.0, -97.0, 68.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="542.0" layoutY="568.0" points="94.0, -58.0, 21.0, 41.0, 0.0, 60.0, 94.0, -145.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="589.0" layoutY="453.0" points="47.0, -108.0, 47.0, -46.0, 0.0, 60.0, 11.0, -179.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="589.0" layoutY="198.0" points="47.0, -11.0, 47.0, 38.0, 47.0, 131.0, 11.0, 64.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="591.0" layoutY="199.0" points="47.0, -57.0, 47.0, -21.0, 4.0, 58.0, 4.0, -77.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="579.0" layoutY="80.0" points="3.0, -28.0, 59.0, -28.0, 57.0, 58.0, 15.0, 34.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <GridPane layoutX="258.0" layoutY="238.0" prefHeight="225.0" prefWidth="299.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="145.0" minWidth="10.0" prefWidth="112.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="187.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="txtNombreUsuario" editable="false" stylesheets="@../resource/TonysKinal.css" GridPane.columnIndex="1" />
+                  <TextField fx:id="txtApellidoUsuario" editable="false" stylesheets="@../resource/TonysKinal.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtUsuario" editable="false" stylesheets="@../resource/TonysKinal.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtPassword" editable="false" stylesheets="@../resource/TonysKinal.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="Nombre usuario">
+                     <font>
+                        <Font name="Times New Roman" size="12.0" />
+                     </font></Label>
+                  <Label text="Apellido usuario" GridPane.rowIndex="1" />
+                  <Label text="usuario" GridPane.rowIndex="2" />
+                  <Label text="contraseña " GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <VBox layoutX="74.0" layoutY="291.0" prefHeight="205.0" prefWidth="172.0">
+               <children>
+                  <Button fx:id="btnNuevo" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#nuevo" prefHeight="36.0" prefWidth="187.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css" text="Nuevo">
+                     <graphic>
+                        <ImageView fx:id="imgNuevo" fitHeight="43.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Create.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnEliminar" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#eliminar" prefHeight="49.0" prefWidth="194.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css">
+                     <graphic>
+                        <ImageView fx:id="imgEliminar" fitHeight="39.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/boton.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

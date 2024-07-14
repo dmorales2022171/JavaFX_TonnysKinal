@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="1059.0" style="-fx-background-color: #F2F2F2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.ServicioController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="308.0" layoutX="544.0" layoutY="12.0" rotate="142.0" stroke="#3d79f2" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="578.0" layoutX="820.0" layoutY="28.0" rotate="200.0" stroke="#3d79f2" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="282.0" layoutX="264.0" layoutY="240.0" rotate="17.0" stroke="#3d79f2" strokeType="INSIDE" width="28.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="258.0" layoutX="218.0" layoutY="38.0" rotate="340.0" stroke="#3d79f2" strokeType="INSIDE" width="32.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d79f2" height="224.0" layoutX="236.0" layoutY="429.0" rotate="134.0" stroke="#3d79f2" strokeType="INSIDE" width="27.0" />
+      <AnchorPane layoutY="62.0" prefHeight="543.0" prefWidth="185.0" style="-fx-background-color: #F28E13;">
+         <children>
+            <Pane layoutX="12.0" layoutY="14.0" prefHeight="175.0" prefWidth="165.0" style="-fx-background-color: #485922; -fx-background-radius: 50 50 50 50;">
+               <children>
+                  <ImageView fitHeight="128.0" fitWidth="133.0" layoutX="19.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Servicio.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <VBox layoutX="24.0" layoutY="229.0" prefHeight="189.0" prefWidth="139.0">
+               <children>
+                  <Button fx:id="btnNuevo" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#nuevo" prefHeight="36.0" prefWidth="187.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css" text="Nuevo">
+                     <graphic>
+                        <ImageView fx:id="imgNuevo" fitHeight="43.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Create.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnEliminar" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#eliminar" prefHeight="49.0" prefWidth="194.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css" text="Eliminar">
+                     <graphic>
+                        <ImageView fx:id="imgEliminar" fitHeight="39.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Delete.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnEditar" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#editar" prefHeight="36.0" prefWidth="187.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css" text="Editar">
+                     <graphic>
+                        <ImageView fx:id="imgEditar" fitHeight="64.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Update.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnReporte" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#reporte" prefHeight="36.0" prefWidth="187.0" styleClass="button1" stylesheets="@../resource/TonysKinal.css" text="Reporte">
+                     <graphic>
+                        <ImageView fx:id="imgReporte" fitHeight="53.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Report.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <Pane layoutX="2.0" layoutY="448.0" prefHeight="86.0" prefWidth="177.0">
+               <children>
+                  <ImageView fitHeight="38.0" fitWidth="42.0" layoutX="70.0" layoutY="24.0" onMouseClicked="#menuPrincipal" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Return.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Pane prefHeight="64.0" prefWidth="1059.0" style="-fx-background-color: #3D79F2;">
+         <children>
+            <Label layoutX="461.0" layoutY="12.0" text="Servicios" textFill="#f2f2f2">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <GridPane fx:id="grpFecha" layoutX="253.0" layoutY="98.0" prefHeight="104.0" prefWidth="752.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="10.0" prefWidth="128.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="282.0" minWidth="10.0" prefWidth="233.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="10.0" prefWidth="156.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="269.0" minWidth="10.0" prefWidth="243.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="24.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="19.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label prefHeight="21.0" prefWidth="132.0" style="-fx-text-fill: #485922;" text="Fecha de servicio" GridPane.columnIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="133.0" style="-fx-text-fill: #485922;" text="Tipo de servicio" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="134.0" style="-fx-text-fill: #485922;" text="Hora de servicio" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtCodigoServicio" editable="false" prefHeight="25.0" prefWidth="214.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="txtTipoServicio" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label prefHeight="21.0" prefWidth="133.0" style="-fx-text-fill: #485922;" text="Lugar servicio" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="155.0" style="-fx-text-fill: #485922;" text="Telefono contacto" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtLugarServicio" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ComboBox fx:id="cmbCodigoEmpresa" prefHeight="25.0" prefWidth="146.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label style="-fx-text-fill: #485922;" text="Codigo Servicio">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="11.0" style="-fx-text-fill: #485922;" text="Codigo Servicio">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="132.0" style="-fx-text-fill: #485922;" text="Codigo Empresa" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtTelefonoContacto" editable="false" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <JFXTimePicker fx:id="tpHoraServicio" prefHeight="28.0" prefWidth="290.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <TableView fx:id="tblServicios" layoutX="194.0" layoutY="221.0" onMouseClicked="#seleccionarElemento" prefHeight="362.0" prefWidth="857.0">
+         <columns>
+            <TableColumn fx:id="colCodigoServicio" prefWidth="94.0" text="Cod.Servicio" />
+            <TableColumn fx:id="colTipoServicio" prefWidth="128.0" text="Tipo servicio" />
+            <TableColumn fx:id="colLugarServicio" prefWidth="98.0" text="Lugar servicio" />
+            <TableColumn fx:id="colFechaServicio" prefWidth="158.0" text="fecha servicio" />
+            <TableColumn fx:id="colHoraServicio" minWidth="8.0" prefWidth="103.0" text="Hora servicio" />
+            <TableColumn fx:id="colTelefonoContacto" minWidth="8.0" prefWidth="183.0" text="Telefono contacto" />
+            <TableColumn fx:id="colCodigoEmpresa" maxWidth="216.0" minWidth="8.0" prefWidth="92.0" text="Cod. Empresa" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

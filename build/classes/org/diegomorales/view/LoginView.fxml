@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomorales.controller.LoginController">
+   <children>
+      <Pane fx:id="Login" layoutY="-6.0" prefHeight="667.0" prefWidth="636.0">
+         <children>
+            <Pane layoutX="-6.0" prefHeight="52.0" prefWidth="644.0" style="-fx-background-color: #F28E13;">
+               <children>
+                  <Label layoutX="274.0" layoutY="4.0" text="Login" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Times New Roman" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="92.0" points="-50.0, -40.0, 24.0, -40.0, -24.0, -5.0, -50.0, 106.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="82.0" layoutY="129.0" points="-50.0, -40.0, 1.0, -77.0, -20.0, 16.0, -82.0, 79.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="248.0" points="-50.0, -30.0, 10.0, -91.0, -18.0, -10.0, -50.0, 50.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="56.0" layoutY="338.0" points="-21.0, -95.0, -7.0, 183.0, -56.0, 75.0, -56.0, -33.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="56.0" layoutY="528.0" points="-7.0, 6.0, -22.0, 67.0, -56.0, -5.0, -56.0, -97.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="630.0" points="-23.0, -32.0, 40.0, 37.0, -50.0, 37.0, -50.0, -96.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="124.0" layoutY="607.0" points="99.0, 66.0, 48.0, 66.0, -20.0, 66.0, -87.0, -10.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="240.0" layoutY="607.0" points="138.0, 60.0, 86.0, 67.0, 0.0, 67.0, -100.0, 25.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="385.0" layoutY="607.0" points="144.0, 21.0, 82.0, 60.0, 0.0, 60.0, -100.0, 40.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="581.0" layoutY="598.0" points="-11.0, 14.0, 57.0, -85.0, 57.0, 68.0, -97.0, 68.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="542.0" layoutY="568.0" points="94.0, -58.0, 21.0, 41.0, 0.0, 60.0, 94.0, -145.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="589.0" layoutY="453.0" points="47.0, -108.0, 47.0, -46.0, 0.0, 60.0, 11.0, -179.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="589.0" layoutY="198.0" points="47.0, -11.0, 47.0, 38.0, 47.0, 131.0, 11.0, 64.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="591.0" layoutY="199.0" points="47.0, -57.0, 47.0, -21.0, 4.0, 58.0, 4.0, -77.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="579.0" layoutY="80.0" points="3.0, -28.0, 59.0, -28.0, 57.0, 58.0, 15.0, 34.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <TextField fx:id="txtUsuario" layoutX="130.0" layoutY="245.0" prefHeight="25.0" prefWidth="379.0" stylesheets="@../resource/TonysKinal.css" />
+            <Text layoutX="130.0" layoutY="286.0" opacity="0.7" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.0">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font></Text>
+            <Text layoutX="129.0" layoutY="419.0" opacity="0.7" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font></Text>
+            <Button fx:id="btnLogin" layoutX="263.0" layoutY="470.0" mnemonicParsing="false" onAction="#Login" stylesheets="@../resource/TonysKinal.css" text="Login" />
+            <Hyperlink fx:id="lblRegistro" layoutX="267.0" layoutY="534.0" onAction="#ventanaUsuario" text="Registrate aqui" />
+            <TextField fx:id="txtPassword" layoutX="123.0" layoutY="381.0" prefHeight="25.0" prefWidth="386.0" stylesheets="@../resource/TonysKinal.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

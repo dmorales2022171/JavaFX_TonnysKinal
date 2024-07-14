@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polyline?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="792.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="612.0" prefWidth="792.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="40.0" points="101.0, -40.0, -10.0, 8.0, -50.0, 124.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="552.0" points="-50.0, 60.0, 98.0, 60.0, 1.0, 10.0, -50.0, -74.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="742.0" layoutY="40.0" points="-90.0, -40.0, 50.0, -40.0, 50.0, 140.0, 9.0, 6.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="742.0" layoutY="549.0" points="0.0, 10.0, 50.0, -107.0, 50.0, 63.0, -101.0, 63.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="71.0" layoutY="496.0" points="-65.0, -58.0, 90.0, 116.0, -18.0, 56.0, -65.0, -27.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="94.0" layoutY="92.0" points="-50.0, -40.0, 66.0, -92.0, -88.0, 83.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="56.0" layoutY="224.0" points="-50.0, -40.0, -11.0, -83.0, -50.0, 99.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="83.0" layoutY="281.0" points="-50.0, -40.0, -21.0, 211.0, -72.0, 43.0, -50.0, -48.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="50.0" layoutY="384.0" points="-46.0, -61.0, -1.0, 96.0, -42.0, 47.0, -46.0, -61.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="607.0" layoutY="45.0" points="27.0, -51.0, 137.0, 5.0, 182.0, 133.0, 27.0, -51.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="738.0" layoutY="226.0" points="0.0, -99.0, 50.0, -40.0, 50.0, 106.0, 0.0, -99.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="738.0" layoutY="371.0" points="48.0, -30.0, 48.0, -30.0, 48.0, 60.0, 2.0, 113.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="640.0" layoutY="550.0" points="139.0, -100.0, 96.0, 4.0, 0.0, 60.0, 144.0, -108.0" stroke="#3d79f2" strokeType="INSIDE" />
+            <Polyline fill="#3d79f2" layoutX="725.0" layoutY="364.0" points="34.0, -122.0, 57.0, -31.0, 2.0, 140.0, 34.0, -122.0" stroke="#3d79f2" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="792.0">
+         <children>
+            <Pane prefHeight="612.0" prefWidth="792.0">
+               <children>
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="40.0" points="101.0, -40.0, -10.0, 8.0, -50.0, 124.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="552.0" points="-50.0, 60.0, 98.0, 60.0, 1.0, 10.0, -50.0, -74.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="742.0" layoutY="40.0" points="-90.0, -40.0, 50.0, -40.0, 50.0, 140.0, 9.0, 6.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="742.0" layoutY="549.0" points="0.0, 10.0, 50.0, -107.0, 50.0, 63.0, -101.0, 63.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="71.0" layoutY="496.0" points="-65.0, -58.0, 90.0, 116.0, -18.0, 56.0, -65.0, -27.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="94.0" layoutY="92.0" points="-50.0, -40.0, 66.0, -92.0, -88.0, 83.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="56.0" layoutY="224.0" points="-50.0, -40.0, -11.0, -83.0, -50.0, 99.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="83.0" layoutY="281.0" points="-50.0, -40.0, -21.0, 211.0, -72.0, 43.0, -50.0, -48.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="384.0" points="-46.0, -61.0, -1.0, 96.0, -42.0, 47.0, -46.0, -61.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="607.0" layoutY="45.0" points="27.0, -51.0, 137.0, 5.0, 182.0, 133.0, 27.0, -51.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="738.0" layoutY="226.0" points="0.0, -99.0, 50.0, -40.0, 50.0, 106.0, 0.0, -99.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="738.0" layoutY="371.0" points="48.0, -30.0, 48.0, -30.0, 48.0, 60.0, 2.0, 113.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="640.0" layoutY="550.0" points="139.0, -100.0, 96.0, 4.0, 0.0, 60.0, 144.0, -108.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="725.0" layoutY="364.0" points="34.0, -122.0, 57.0, -31.0, 2.0, 140.0, 34.0, -122.0" stroke="#3d79f2" strokeType="INSIDE" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="792.0">
+         <children>
+            <Pane prefHeight="612.0" prefWidth="792.0">
+               <children>
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="40.0" points="101.0, -40.0, -10.0, 8.0, -50.0, 124.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="552.0" points="-50.0, 60.0, 98.0, 60.0, 1.0, 10.0, -50.0, -74.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="742.0" layoutY="40.0" points="-90.0, -40.0, 50.0, -40.0, 50.0, 140.0, 9.0, 6.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="742.0" layoutY="549.0" points="0.0, 10.0, 50.0, -107.0, 50.0, 63.0, -101.0, 63.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="71.0" layoutY="496.0" points="-65.0, -58.0, 90.0, 116.0, -18.0, 56.0, -65.0, -27.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="94.0" layoutY="92.0" points="-50.0, -40.0, 66.0, -92.0, -88.0, 83.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="56.0" layoutY="224.0" points="-50.0, -40.0, -11.0, -83.0, -50.0, 99.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="83.0" layoutY="281.0" points="-50.0, -40.0, -21.0, 211.0, -72.0, 43.0, -50.0, -48.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="50.0" layoutY="384.0" points="-46.0, -61.0, -1.0, 96.0, -42.0, 47.0, -46.0, -61.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="607.0" layoutY="45.0" points="27.0, -51.0, 137.0, 5.0, 182.0, 133.0, 27.0, -51.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="738.0" layoutY="226.0" points="0.0, -99.0, 50.0, -40.0, 50.0, 106.0, 0.0, -99.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="738.0" layoutY="371.0" points="48.0, -30.0, 48.0, -30.0, 48.0, 60.0, 2.0, 113.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="640.0" layoutY="550.0" points="139.0, -100.0, 96.0, 4.0, 0.0, 60.0, 144.0, -108.0" stroke="#3d79f2" strokeType="INSIDE" />
+                  <Polyline fill="#3d79f2" layoutX="725.0" layoutY="364.0" points="34.0, -122.0, 57.0, -31.0, 2.0, 140.0, 34.0, -122.0" stroke="#3d79f2" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="792.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Pane prefHeight="612.0" prefWidth="792.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Polyline fill="#3d79f2" layoutX="50.0" layoutY="40.0" points="101.0, -40.0, -10.0, 8.0, -50.0, 124.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="50.0" layoutY="552.0" points="-50.0, 60.0, 98.0, 60.0, 1.0, 10.0, -50.0, -74.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="742.0" layoutY="40.0" points="-90.0, -40.0, 50.0, -40.0, 50.0, 140.0, 9.0, 6.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="742.0" layoutY="549.0" points="0.0, 10.0, 50.0, -107.0, 50.0, 63.0, -101.0, 63.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="71.0" layoutY="496.0" points="-65.0, -58.0, 90.0, 116.0, -18.0, 56.0, -65.0, -27.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="94.0" layoutY="92.0" points="-50.0, -40.0, 66.0, -92.0, -88.0, 83.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="56.0" layoutY="224.0" points="-50.0, -40.0, -11.0, -83.0, -50.0, 99.0, -50.0, -40.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="83.0" layoutY="281.0" points="-50.0, -40.0, -21.0, 211.0, -72.0, 43.0, -50.0, -48.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="50.0" layoutY="384.0" points="-46.0, -61.0, -1.0, 96.0, -42.0, 47.0, -46.0, -61.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="607.0" layoutY="45.0" points="27.0, -51.0, 137.0, 5.0, 182.0, 133.0, 27.0, -51.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="738.0" layoutY="226.0" points="0.0, -99.0, 50.0, -40.0, 50.0, 106.0, 0.0, -99.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="738.0" layoutY="371.0" points="48.0, -30.0, 48.0, -30.0, 48.0, 60.0, 2.0, 113.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="640.0" layoutY="550.0" points="139.0, -100.0, 96.0, 4.0, 0.0, 60.0, 144.0, -108.0" stroke="#3d79f2" strokeType="INSIDE" />
+                        <Polyline fill="#3d79f2" layoutX="725.0" layoutY="364.0" points="34.0, -122.0, 57.0, -31.0, 2.0, 140.0, 34.0, -122.0" stroke="#3d79f2" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReporteGeneral" language="groovy" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6ee03cdd-a3d3-45a0-a206-a3a7b00a37b3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="codEmpresa" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="fondo" class="java.io.InputStream"/>
+	<parameter name="SegundoLogo" class="java.io.InputStream"/>
+	<queryString>
+		<![CDATA[call sp_ReporteGeneral($P{codEmpresa});]]>
+	</queryString>
+	<field name="nombreEmpresa" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipoServicio" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cantidadPresupuesto" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="apellidosEmpleado" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombresEmpleado" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipoEmpleado" class="java.lang.String"/>
+	<field name="nombrePlato" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="descripcionTipo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nombreProducto" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band height="572" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="752" height="572" uuid="8921aa07-8665-4563-9ffd-23095871993b"/>
+				<imageExpression><![CDATA[$P{fondo}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="99" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="246" y="31" width="253" height="29" forecolor="#F28E13" backcolor="#F28E13" uuid="ceace0e8-a986-45ba-8b6e-44a0a3bc8e83"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="300" y="31" width="144" height="29" forecolor="#F2F2F2" uuid="11e422ad-29a2-4d4b-a9b4-36731c2ce90c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reporte General ]]></text>
+			</staticText>
+			<image>
+				<reportElement x="543" y="12" width="89" height="66" uuid="8b1d3c6c-3305-465f-bcc5-94e33fe6de10"/>
+				<imageExpression><![CDATA[$P{SegundoLogo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="75" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="192" splitType="Stretch">
+			<staticText>
+				<reportElement x="115" y="13" width="119" height="20" uuid="68b4acd5-ff16-466b-bcff-a6edc5339d26"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nombre de la Empresa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="317" y="13" width="82" height="20" uuid="75b7dc13-3299-4b6b-b293-1225fa95c1e5"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tipo de servicio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="13" width="158" height="20" uuid="e3ba84b2-9168-4a66-b4b4-2874d6ee09a5"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Cantidad de presupuesto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="115" y="71" width="119" height="20" uuid="21483e00-1fb8-456b-bd59-0f8b2c82910d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Apellidos del empleado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="318" y="71" width="109" height="20" uuid="2637a089-b4c2-4b4f-807a-e8533a87424b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nombre del Empleado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="71" width="100" height="20" uuid="aa898d38-8bc8-4733-807c-69ac2d65d603"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tipo de Empleado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="135" width="100" height="20" uuid="9ad3ab5d-a581-4d68-bea6-99dd2d6ad253"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nombre del platillo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="317" y="135" width="113" height="20" uuid="845e61ab-7894-4cc7-8cf5-bb4502d77134"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Descripcion del platillo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="117" y="135" width="119" height="20" uuid="18886ae0-2cd6-4d79-9f41-bd32d2083234"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nombre del producto]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="117" y="33" width="117" height="20" uuid="a9e6593b-31ab-49ea-bb36-35daab132c0c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreEmpresa}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="317" y="33" width="109" height="20" uuid="dc57d489-77e7-429c-aa23-316912a24a5f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoServicio}]]></textFieldExpression>
+			</textField>
+			<textField pattern="¤ #,##0.00">
+				<reportElement x="499" y="33" width="133" height="20" uuid="7ebd7d10-e388-4e38-87cc-41e5ab9bdf8a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cantidadPresupuesto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="117" y="91" width="117" height="20" uuid="25ceece9-da0b-41a6-b125-2c33df0f6e7d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{apellidosEmpleado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="91" width="115" height="20" uuid="8ebc91e2-0213-42ae-b99e-4a0906a91199"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombresEmpleado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="91" width="100" height="20" uuid="53c935e1-79bd-4200-a853-e068a93e0920"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoEmpleado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="155" width="100" height="20" uuid="0cf50741-512f-4b67-a752-ede304ef26d9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombrePlato}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="155" width="181" height="20" uuid="e16e13bd-fc90-4c64-88a8-1216b407004e"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{descripcionTipo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="119" y="155" width="117" height="20" uuid="8d51384f-cbca-4a4c-99e4-fe2085502f28"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreProducto}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="57" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
